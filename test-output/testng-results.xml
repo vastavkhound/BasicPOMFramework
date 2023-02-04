@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-31T09:48:25 IST" name="Default suite" finished-at="2023-01-31T09:48:55 IST" duration-ms="30319">
+    <groups>
+    </groups>
+    <test started-at="2023-01-31T09:48:25 IST" name="Default test" finished-at="2023-01-31T09:48:55 IST" duration-ms="30319">
+      <class name="Test.ViewProductTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Test.ViewProductTest@35d019a3]" started-at="2023-01-31T09:48:25 IST" name="initialize" finished-at="2023-01-31T09:48:33 IST" duration-ms="7908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="testContext(org.testng.ITestContext)[pri:0, instance:Test.ViewProductTest@35d019a3]" started-at="2023-01-31T09:48:33 IST" name="testContext" finished-at="2023-01-31T09:48:33 IST" depends-on-methods="Test.BaseTest.initialize" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716185fe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContext -->
+        <test-method signature="addPrice()[pri:0, instance:Test.ViewProductTest@35d019a3]" started-at="2023-01-31T09:48:33 IST" name="addPrice" finished-at="2023-01-31T09:48:46 IST" duration-ms="12948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPrice -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.ViewProductTest@35d019a3]" started-at="2023-01-31T09:48:46 IST" name="closeBrowser" finished-at="2023-01-31T09:48:47 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Test.ViewProductTest@35d019a3]" started-at="2023-01-31T09:48:47 IST" name="initialize" finished-at="2023-01-31T09:48:53 IST" duration-ms="6619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="testContext(org.testng.ITestContext)[pri:0, instance:Test.ViewProductTest@35d019a3]" started-at="2023-01-31T09:48:53 IST" name="testContext" finished-at="2023-01-31T09:48:53 IST" depends-on-methods="Test.BaseTest.initialize" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@716185fe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContext -->
+        <test-method signature="viewProducts()[pri:0, instance:Test.ViewProductTest@35d019a3]" started-at="2023-01-31T09:48:53 IST" name="viewProducts" finished-at="2023-01-31T09:48:55 IST" duration-ms="1968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProducts -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.ViewProductTest@35d019a3]" started-at="2023-01-31T09:48:55 IST" name="closeBrowser" finished-at="2023-01-31T09:48:55 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.ViewProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

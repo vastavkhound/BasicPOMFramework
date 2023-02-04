@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jan 28 21:16:10 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>104 seconds (104446 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: Test.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Categories functionality", "Product Page Features"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1769827821", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1769827821'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div></td>
+<td>21</td>
+<td>Test.CucumberRunner@642a7222</td></tr>
+<tr>
+<td title='Test.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: Test.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add To Cart functionality", "Product Page Features"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace299989139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace299989139'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div></td>
+<td>17</td>
+<td>Test.CucumberRunner@642a7222</td></tr>
+<tr>
+<td title='Test.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: Test.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search bar function", "Product Page Features"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace486715174", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace486715174'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div></td>
+<td>22</td>
+<td>Test.CucumberRunner@642a7222</td></tr>
+<tr>
+<td title='Test.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: Test.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search For functionality", "Product Page Features"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace564424689", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace564424689'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div></td>
+<td>15</td>
+<td>Test.CucumberRunner@642a7222</td></tr>
+<tr>
+<td title='Test.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: Test.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search For functionality", "Product Page Features"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1101970356", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1101970356'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div></td>
+<td>11</td>
+<td>Test.CucumberRunner@642a7222</td></tr>
+<tr>
+<td title='Test.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: Test.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Products displayed", "Product Page Features"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div><a href='#' onClick='toggleBox("stack-trace448708339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace448708339'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.testng.ITestContext.setAttribute(String, Object)&quot; because &quot;this.context&quot; is null
+	at Test.ProductTest.before_or_after(ProductTest.java:39)
+</pre></div></td>
+<td>15</td>
+<td>Test.CucumberRunner@642a7222</td></tr>
+</table><p>
+</body>
+</html>
